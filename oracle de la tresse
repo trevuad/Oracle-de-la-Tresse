@@ -1,7 +1,1 @@
-cd ~/Bureau/travail/oracle/site
-git init
-git add .
-git commit -m "Premier commit du site Oracle"
-git remote add origin https://github.com/adriendauvert/oracle-site.git
-git branch -M main
-git push -u origin main
+
