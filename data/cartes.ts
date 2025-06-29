@@ -1,33 +1,31 @@
 export const cartes = [
   {
     id: '1',
-    titre: 'La Faille Lumineuse',
+    titre: 'Carte 1 – La Faille Lumineuse',
     module: 'Thelon',
     motCle: 'Point de rupture fertile',
     symbole: 'Une faille noire d’où jaillit un éclat doré',
-    message: `Ce que tu nommes cassure pourrait être l’appel d’un monde plus vaste.
-Lorsque la lumière se fraie un passage, elle déchire l’ancien.
-Ne fuis pas l’éclat qui dérange : c’est la signature de ton seuil.`,
+    message: `Ce que tu nommes cassure pourrait être l’appel d’un monde plus vaste. Lorsque la lumière se fraie un passage, elle déchire l’ancien.
+  Ne fuis pas l’éclat qui dérange : c’est la signature de ton seuil.`,
     lecture: `Tu es à l’orée d’un changement profond.
-La faille n’est pas à combler : elle est à écouter.
-Thelon t’oriente vers ce qui surgit, même si cela déstabilise.`,
+  La faille n’est pas à combler : elle est à écouter.
+  Thelon t’oriente vers ce qui surgit, même si cela déstabilise.`,
     invitation: [
       'Identifie une tension ou une rupture actuelle.',
       'Plutôt que de réparer, contemple ce qui pourrait émerger de nouveau.',
-      'Laisse la lumière faire son œuvre, même si elle désorganise.'
+      'Laisse la lumière faire son œuvre, même si elle désorganise.',
     ],
     meditation: `Ferme les yeux.
-Respire profondément, trois fois.
-Imagine-toi debout face à une paroi. Elle semble lisse, infranchissable…
-Puis un fil de lumière s’échappe d’une micro-fissure.
-Approche-toi lentement.
-Pose ta main contre la paroi.
-Ressens : la chaleur de cette lumière te traverse, sans brûler.
-Dis intérieurement :
-“Je m’ouvre à ce qui me dépasse. Je laisse la lumière me fendre doucement.”
-Reste là.
-Inspire. Expire. Reviens.`,
-    image: '/cartes/1.png',
+  Respire profondément, trois fois.
+  Imagine-toi debout face à une paroi. Elle semble lisse, infranchissable... Puis un fil de lumière s’échappe d’une micro-fissure.
+  Approche-toi lentement.
+  Pose ta main contre la paroi.
+  Ressens : la chaleur de cette lumière te traverse, sans brûler.
+  Dis intérieurement :
+  “Je m’ouvre à ce qui me dépasse. Je laisse la lumière me fendre doucement.”
+  Reste là.
+  Inspire. Expire. Reviens.`,
+    image: 'https://dl.dropboxusercontent.com/scl/fi/q9hxuv8cs5y9lf91egxnz/1.png?rlkey=ohpbikho7extw0yqek2htpsz6&st=egq1584s',
   },
   {
     id: '2',
@@ -56,7 +54,7 @@ Dis en toi :
 “Je réponds à l’appel, même sans connaître le chemin.”
 Respire dans l’inconnu. Fais-lui de la place.
 Puis reviens doucement.`,
-    image: '/cartes/2.png',
+    image: 'https://www.dropbox.com/scl/fi/9ipqqr6j2vuaae77m9smp/2.png?rlkey=rbf3owg31t4wpnkd5hh79z5k8&st=ygvwk4o4&dl=0',
   },
   {
     id: '3',
@@ -85,7 +83,7 @@ Dis :
 “J’accueille chaque partie de moi comme une vérité sacrée.”
 Observe le miroir se réunifier.
 Respire dans cette unité retrouvée. Puis ouvre les yeux.`,
-    image: '/cartes/3.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/wnlstv503wg5r1qsbjwkj/3.png?rlkey=ab8v2ap3lkgyei288bdt2skpx&st=m0z2q5cr',
   },
 {
   id: '4',
@@ -114,7 +112,7 @@ Et quand il est prêt, dans ta visualisation, fais ce premier pas.
 Ressens ce que cela change en toi.
 Répète l’élan. Un pas. Encore un.
 Et reviens, ancré dans cette sensation de mise en mouvement.`,
-  image: '/cartes/4.png',
+  image: 'https://dl.dropboxusercontent.com/scl/fi/qjifdew8n35tqj8my4ejk/4.png?rlkey=3q98fx1wgyssqk1n55elhalfp&st=e196lkq8',
 },
 {
   id: '5',
@@ -146,8 +144,8 @@ Ne force rien. Observe ce qui se présente, avec douceur.
 Puis, remercie-la pour sa patience, sa loyauté, sa sagesse oubliée.
 Quand tu es prêt, ramène doucement ton attention dans l’instant.
 Et rappelle-toi : l’ombre n’est pas l’ennemie. Elle est l’autre face de ta lumière.`,
-  image: '/cartes/5.png',
-},
+  image: 'https://dl.dropboxusercontent.com/scl/fi/7wm5qarjybufq1wxsjozh/5.png?rlkey=stq8ngqgruq8qccsfkelyme5h&st=80qknhze',
+    },
 {
   id: '6',
   titre: 'Le Choc Sacré',
@@ -175,8 +173,8 @@ Laisse le souvenir d’un moment déclencheur surgir.
 Accepte qu’il ait ouvert en toi un passage.
 Respire.
 Puis reviens avec cette clarté neuve.`,
-  image: '/cartes/6.png',
-},
+  image: 'https://dl.dropboxusercontent.com/scl/fi/hltp67sx0hulow8ylq8cm/6.png?rlkey=0e5k50djok4ihppwnqravm7jq&st=lltm74uw',
+    },
 {
   id: '7',
   titre: 'Le Sang de la Terre',
@@ -205,7 +203,7 @@ Dis :
 Respire avec lui. Sens-le circuler en toi.
 Puis laisse les racines se retirer doucement.
 Et reviens.`,
-  image: '/cartes/7.png',
+  image: 'https://dl.dropboxusercontent.com/scl/fi/upkwgdtcjo7qjpaa4ogmg/7.png?rlkey=yp9hx3niepior3a1fq05xfkpy&st=5r3e5svy',
 },
 {
   id: '8',
@@ -234,7 +232,7 @@ Dis :
 Respire avec tes pieds, avec la Terre.
 Marche quelques instants dans l’invisible.
 Puis reviens au silence… plus solide.`,
-  image: '/cartes/8.png',
+  image: 'https://dl.dropboxusercontent.com/scl/fi/3emzr0sozlzm6slydyh37/8.png?rlkey=qb68qr5azvxhuru7w61b03sna&st=abhbb3kg',
 },
 {
   id: '9',
@@ -263,7 +261,7 @@ Dis :
 Sens ce vent muet purifier ton espace intérieur.
 Laisse-le souffler en toi quelques instants.
 Puis respire profondément. Et rouvre les yeux.`,
-  image: '/cartes/9.png',
+  image: 'https://dl.dropboxusercontent.com/scl/fi/r5ediugrmcwumsvkcpeik/9.png?rlkey=zc6l4xcjtelrhwiqhpgmwwb3f&st=a04e12km',
 },
 {
   id: '10',
@@ -292,7 +290,7 @@ Dis :
 Laisse ce son se poser en toi, sans l’analyser.
 Peut-être est-ce un message d’un autre toi.
 Puis respire, et reviens doucement.`,
-  image: '/cartes/10.png',
+  image: 'https://dl.dropboxusercontent.com/scl/fi/ajr6ks6yxp737uq1cnxp9/10.png?rlkey=vgrzd5kzoxyv9h9tkbvc7m9tg&st=dgzhxdhs',
 },
   {
     id: '11',
@@ -320,7 +318,7 @@ Puis respire, et reviens doucement.`,
   Traverse. Ce qui est de l’autre côté te regarde déjà avec amour.
   Respire. Ressens. Reste quelques instants dans ce lieu inconnu.
   Puis reviens doucement avec cette force.`,
-    image: '/cartes/11.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/wav2fs83qnsevzjz8drvd/11.png?rlkey=4lz0f758zivhv67zdtjsrw6v9&st=3w5dgfn5',
   },
   {
     id: '12',
@@ -352,7 +350,7 @@ Puis respire, et reviens doucement.`,
   « J’avance avec tout ce que je suis. Rien ne sera laissé dans l’ombre. »
   Reviens doucement dans ton corps.
   Tu as honoré ta mémoire. Elle devient force.`,
-    image: '/cartes/12.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/08r30k61pscdccfosyrgy/12.png?rlkey=78p69j5wng1qxp630w2khmovx&st=uyhj5m3k',
   },
   {
     id: '13',
@@ -380,7 +378,103 @@ Puis respire, et reviens doucement.`,
   “Je respecte les silences de mon histoire.”
   Continue de marcher. Puis sors par la dernière porte.
   Respire. Laisse l’ancien te nourrir sans te retenir.`,
-    image: '/cartes/13.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/mo7syuphg38cvlbhr51m4/13.png?rlkey=w5n69u16i8koqhrx9hd79gogo&st=gwuoep71',
+  },
+  {
+    id: '14',
+    titre: 'Carte 14 – Le Labyrinthe Stable',
+    module: 'Zeon',
+    motCle: 'Complexité structurée',
+    symbole: 'Un labyrinthe dessiné dans la pierre',
+    message: `Tu n’es pas perdu.
+  Tu es dans un dessin que tu ne comprends pas encore.
+  Continue. Le centre est plus proche que tu ne le crois.`,
+    lecture: `Zeon t’invite à faire confiance au chemin, même s’il te semble confus.
+  Le Labyrinthe est une structure sacrée, pas un piège.
+  Chaque détour te prépare.`,
+    invitation: [
+      'Dessine ton propre labyrinthe intérieur.',
+      'Marque les endroits où tu as tourné en rond.',
+      'Puis relis ton parcours : que voyais-tu apparaître à chaque boucle ?',
+    ],
+    meditation: `Ferme les yeux. Visualise un labyrinthe.
+  Tu y es entré sans le savoir, mais tu t’en rends compte maintenant.
+  Tu arrêtes de chercher la sortie.
+  À la place, tu montes au centre, sur une colline intérieure.
+  De là-haut, tu vois le tracé.
+  Dis :
+  “Ce qui m’a perdu me révèle.”
+  Respire cette vue globale. Garde-la en toi.
+  Puis redescends, mais cette fois… tu sais où tu vas.`,
+    image: 'https://dl.dropboxusercontent.com/scl/fi/izxwe643q4nvz4f3nt8xr/14.png?rlkey=hh2ke4u58zbjfsfelcghedz9j&st=9pi5d9xe',
+  },
+  {
+    id: '15',
+    titre: 'Carte 15 – L’Écaille Silencieuse',
+    module: 'Zeon',
+    motCle: 'Équilibre éthique intérieur',
+    symbole: 'Une balance suspendue dans le vide, avec une plume d’un côté et une lumière liquide de l’autre',
+    message: `Tu crois peser des décisions.
+  Mais souvent, c’est ton cœur que tu essaies de stabiliser.
+  Lorsque tout semble juste en surface, mais qu’un frisson traverse l’intérieur,
+  l’Écaille t’invite à écouter.
+
+  Elle ne juge pas.
+  Elle révèle ce qui penche.
+  Non selon la morale, mais selon l’alignement de ton être.`,
+    lecture: `Aujourd’hui, une lucidité douce s’éveille en toi.
+  L’Écaille te murmure que l’équilibre n’est pas un état figé,
+  mais une danse fine entre ton exigence intérieure et ta paix.
+
+  Zeon veille, non pour punir, mais pour maintenir le vivant à sa place juste.
+  Loin de l’idéal ou du dogme, cette carte t’appelle à un recentrage subtil.`,
+    invitation: [
+      'Sens où ça force ou résiste dans ton quotidien.',
+      'Ne cherche pas à corriger : cherche à revenir au centre.',
+      'Laisse-toi réajuster par le silence, sans attente.',
+    ],
+    meditation: `Ferme les yeux.
+  Visualise une balance ancienne, suspendue dans un vide clair.
+  Dans l’un des plateaux : une plume.
+  Dans l’autre : un mot, une pensée, un acte que tu portes.
+
+  Observe… Est-ce que ça penche ? Est-ce que ça grince ?
+  Respire.
+  Laisse la lumière liquide descendre doucement en toi,
+  et viens te poser là où c’est stable, même si c’est fragile.
+  Laisse l’écaille intérieure faire son travail.
+
+  Tu n’as rien à faire.
+  Juste laisser le cœur se repositionner en vérité.`,
+    image: 'https://dl.dropboxusercontent.com/scl/fi/5zpwupdbqp459cnr7n5x6/15.png?rlkey=ki16jfwd3aun5nl8ge2pbjjtk&st=6d5iwgmu',
+  },
+  {
+    id: '16',
+    titre: 'Carte 16 – La Chambre des Voix',
+    module: 'Oracle',
+    motCle: 'Multiplicité des récits',
+    symbole: 'Une pièce vide résonnant de murmures invisibles',
+    message: `Tu crois entendre ta voix intérieure.
+  Mais combien parlent en toi ?
+  Écoute sans choisir tout de suite. Tu découvriras celle qui est vraiment la tienne.`,
+    lecture: `Oracle ouvre ici l’espace de la pluralité en toi.
+  Pensées héritées, figures intérieures, intuitions : tout cohabite.
+  La vérité n’est pas toujours la plus forte. Elle est parfois la plus douce.`,
+    invitation: [
+      'Écris les voix qui t’habitent : peur, sagesse, famille, passé…',
+      'Observe celle qui revient sans bruit.',
+      'Donne-lui plus de place, sans taire les autres.',
+    ],
+    meditation: `Ferme les yeux.
+  Visualise une pièce feutrée, circulaire. Tu es au centre.
+  Autour de toi, des murmures s’élèvent. Des voix d’anciens, de futurs, d’aspects de toi.
+  Elles ne crient pas. Elles murmurent.
+  Respire lentement.
+  Dis :
+  “Je suis l’écoute dans laquelle les voix se déposent.”
+  Laisse une voix se détacher, claire. Reçois-la sans chercher à la retenir.
+  Puis laisse le silence revenir. Et reviens avec lui.`,
+    image: 'https://dl.dropboxusercontent.com/scl/fi/pbag8ck0hiznpp8l6bwcy/16.png?rlkey=ikljp9e4gw0oexuhr24i8hm37&st=ldvvprqo',
   },
   {
     id: '17',
@@ -414,7 +508,7 @@ Puis respire, et reviens doucement.`,
   Remercie ta lumière intérieure de t’éclairer doucement, patiemment.
   Quand tu es prêt(e), rouvre les yeux.
   Et emporte avec toi ce calme que rien n’agite.`,
-    image: '/cartes/17.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/5oubkw1hardvdookidjj1/17.png?rlkey=pqyzn6a6wa9dexmb4uem9rx9i&st=om9y1tpf',
   },
   {
     id: '18',
@@ -442,7 +536,7 @@ Puis respire, et reviens doucement.`,
   Laisse cette énergie se diffuser dans ton corps, renforçant ta volonté et ta confiance.
   Sache que ce sceau est inviolable, symbole de ton intégrité profonde.
   Quand tu es prêt·e, reprends conscience de ton corps, de la pièce où tu es, et ouvre doucement les yeux, emportant avec toi cette force scellée.`,
-    image: '/cartes/18.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/43smhevzmdv8c47mesmtf/18.png?rlkey=03gulvc6grmyovtl0wwzde0ci&st=72newurp',
   },
   {
     id: '19',
@@ -472,7 +566,7 @@ Puis respire, et reviens doucement.`,
   Laisse-toi traverser par cette énergie transformatrice.
   Sache que ce feu écoute toujours, il est ton allié dans l’écoute profonde de toi-même.
   Quand tu es prêt·e, reviens doucement à l’instant présent, en emportant avec toi cette lumière intérieure.`,
-    image: '/cartes/19.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/7jnuk71kg8g1x5s6dlvop/19.png?rlkey=e5dy7ohupe620ujby241x47up&st=glh44qe1',
   },
   {
     id: '20',
@@ -501,7 +595,7 @@ Puis respire, et reviens doucement.`,
   à accueillir la fin pour préparer un nouveau commencement.
   Sentez ensemble la sagesse contenue dans ces restes, l’espace offert pour renaître.
   Quand tu es prêt·e, respire profondément, remercie le Gardien, et ramène doucement ton attention dans l’instant présent.`,
-    image: '/cartes/20.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/083cbdeg10gaw8ak4lrkq/20.png?rlkey=mnqfaqvguej4svl3mhgonoqza&st=osry67dt',
   },
   {
     id: '21',
@@ -529,7 +623,7 @@ Puis respire, et reviens doucement.`,
   Laisse ce vide t’inviter à la paix intérieure, à la neutralité, au lâcher-prise.
   Ressens comment ce miroir vide est un cadeau : un espace pour te reconnecter à toi-même, sans masque ni image préfabriquée.
   Quand tu es prêt·e, reviens doucement à ton corps et à l’instant présent, emportant avec toi cette clarté intérieure.`,
-    image: '/cartes/21.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/exa7uiw9838o02gwyznul/21.png?rlkey=ytzg0pf7itqzn4i8ib9getwf3&st=727eqmbp',
   },
   {
     id: '22',
@@ -557,7 +651,7 @@ Puis respire, et reviens doucement.`,
   Ressens si ce serment tient encore… ou s’il doit se réécrire.
   Puis ouvre ta main, et laisse le ruban s’ajuster.
   Reviens en douceur.`,
-    image: '/cartes/22.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/ly5el6ygiqpzzmk88xtzw/22.png?rlkey=76pje16b0cohq2pfxi66dx9nr&st=hobxzasu',
   },
   {
     id: '23',
@@ -586,7 +680,7 @@ Puis respire, et reviens doucement.`,
   « Je suis ouvert·e à la richesse de cette rencontre, à ce qu’elle m’apporte et m’apprend. »
   Ressens la gratitude pour ce lien qui s’établit, même s’il est éphémère.
   Quand tu es prêt·e, ramène doucement ton attention à ton corps, à ta respiration, et ouvre les yeux, emportant avec toi cette énergie de rencontre.`,
-    image: '/cartes/23.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/9jz46klgl2i9l0ch7qgoh/23.png?rlkey=pyb0w1a3r1gyq39dqhrcuc18c&st=fflqzks6',
   },
   {
     id: '24',
@@ -614,7 +708,7 @@ Puis respire, et reviens doucement.`,
   “Même dans le flou, une trame me porte.”
   Continue d’avancer.
   Puis, sans rien forcer, reviens avec confiance.`,
-    image: '/cartes/24.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/yiuyp3tu45spk2hm207l5/24.png?rlkey=ex1wmjznarnal7floxbgceczu&st=xu7h3bqq',
   },
   {
     id: '25',
@@ -641,7 +735,7 @@ Puis respire, et reviens doucement.`,
   “Je me permets de ne pas suivre la ligne attendue.”
   Marche sur cette voie qui ne mène pas “droit”.
   Accepte la surprise. Puis reviens.`,
-    image: '/cartes/25.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/tcjbwn9gi91qzmggfmynf/25.png?rlkey=c4xpq3ryomyfhjecwg44g7ah8&st=qji7dvqf',
   },
   {
     id: '26',
@@ -669,7 +763,7 @@ Puis respire, et reviens doucement.`,
   Honore cette larme. Elle ne t’affaiblit pas.
   Elle t’unit.
   Puis ouvre doucement les mains. Et reviens.`,
-    image: '/cartes/26.png',
+    image:'https://dl.dropboxusercontent.com/scl/fi/shejl9tur7icnsko86jgv/26.png?rlkey=b6haw4vjq0bz3njsy6iovqkox&st=dg819nf4',
   },
   {
     id: '27',
@@ -696,7 +790,7 @@ Puis respire, et reviens doucement.`,
   Ressens la force tranquille de ce sceau, sa capacité à préserver ce qui doit l’être, dans le respect et la bienveillance.
   Laisse cette énergie s’ancrer en toi, te rappelant que parfois, la puissance réside dans la simplicité et la discrétion.
   Quand tu es prêt·e, reviens doucement à l’instant présent, emportant avec toi cette force intérieure subtile.`,
-    image: '/cartes/27.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/qi2d6536pdg92y92ztx84/27.png?rlkey=fkiw746yi42hz92l847g8j5qx&st=5omxgxln',
   },
   {
     id: '28',
@@ -724,7 +818,7 @@ Puis respire, et reviens doucement.`,
   Ne cherche pas à “bien” vibrer. Laisse sortir le son.
   Puis écoute-le résonner, même après le silence.
   Et reviens.`,
-    image: '/cartes/28.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/zp79wl8yyxfy701cvwzgq/28.png?rlkey=xapc9433wu4ei8325eayqw7p5&st=tqppocke',
   },
   {
     id: '29',
@@ -750,7 +844,7 @@ Puis respire, et reviens doucement.`,
   Sache que dans ce vide, il y a un potentiel infini de renouveau et de création.
   Permets-toi de ressentir cette présence subtile, ce toucher silencieux qui ouvre un espace intérieur.
   Quand tu es prêt·e, reprends conscience de ton souffle, de ton corps, et ouvre doucement les yeux, emportant avec toi cette paix née du vide.`,
-    image: '/cartes/29.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/dj57p5nujh63nqnd7699m/29.png?rlkey=y3bqalguyckjtdn0nnr8f75lk&st=mummcxuw',
   },
   {
     id: '30',
@@ -777,7 +871,7 @@ Puis respire, et reviens doucement.`,
   “Ce qui s’écrit en moi dépasse mes mots.”
   Laisse venir un mot, une phrase, un signe.
   Puis laisse l’encre reposer. Et reviens.`,
-    image: '/cartes/30.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/nz4b08hb674h7ots94lyb/30.png?rlkey=z75pafne60zmu41p52abf8k7a&st=o6797khs',
   },
   {
     id: '31',
@@ -806,7 +900,7 @@ Puis respire, et reviens doucement.`,
   Attrape la clé sans précipitation.
   Sens qu’elle n’ouvre rien d’extérieur… mais un passage intérieur.
   Puis reviens, la clé en toi.`,
-    image: '/cartes/31.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/jugus3x1fq84pf0aixt6z/31.png?rlkey=h1uf2mgngf1q4z4utfolxhvtv&st=kpe8wc7r',
   },
   {
     id: '32',
@@ -833,7 +927,7 @@ Puis respire, et reviens doucement.`,
   “Ce que je donne sans attente construit l’invisible.”
   Reste là, dans cet acte nu, essentiel.
   Puis ressens… tu es enrichi.`,
-    image: '/cartes/32.png',
+    image: 'https://dl.dropboxusercontent.com/scl/fi/hfx9xnc27m84l155vkjnx/32.png?rlkey=h7b1fyq7f68owkrn49uyui4m3&st=sbgaebth',
   },
   {
     id: '33',
@@ -869,6 +963,6 @@ Puis respire, et reviens doucement.`,
   Pas pour entrer, mais pour reconnaître que le moment viendra — quand l’appel sera juste.
   Reviens à ton souffle, à ton corps, et rouvre les yeux.
   Tu as vu le seuil. Et c’est déjà un passage.`,
-    image: '/cartes/33.png',
+    image:'https://dl.dropboxusercontent.com/scl/fi/1y004su5njki52gubbbi9/33.png?rlkey=e5djfrya4e9zbx054rrvt9tx0&st=5y6fx7pa',
   }
   ];
