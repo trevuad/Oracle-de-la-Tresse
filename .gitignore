@@ -1,19 +1,32 @@
-# Node modules
+# ✅ Node.js & Next.js
 node_modules/
-
-# Build output
 .next/
+out/
 
-# Logs
+# ✅ Vercel
+.vercel/
+
+# ✅ Système Mac / Linux / Windows
+.DS_Store
+Thumbs.db
+
+# ✅ Logs & Dépendances
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Mac system files
-.DS_Store
-
-# Env files
+# ✅ Environnements
+.env*
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+
+# ✅ IDE & Éditeurs
+.vscode/
+.idea/
+*.swp
+
+# ✅ Autres
+dist/
+coverage/
