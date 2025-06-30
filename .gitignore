@@ -30,3 +30,4 @@ yarn-error.log*
 # ✅ Autres
 dist/
 coverage/
+.vercel
