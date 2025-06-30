@@ -1,34 +1,53 @@
 // pages/carte/[id].tsx
 
-import React from 'react';
-import { GetStaticPaths, GetStaticProps } from 'next';
-import { useRouter } from 'next/router';
-import { cartes } from '../../data/cartes';
+import React from "react";
+import { useRouter } from "next/router";
+import { cartes } from "../../data/cartes";
 
-export default function CartePage({ carte }: { carte: any }) {
+export default function CartePage() {
   const router = useRouter();
+  const { id } = router.query;
 
-  if (router.isFallback) return <p>Chargement...</p>;
-  if (!carte) return <p>Carte non trouvée</p>;
+  if (!router.isReady) return <p>Chargement...</p>;
+
+  const carte = cartes.find((c) => c.id === String(id));
+
+  if (!carte) {
+    return <p>Carte non trouvée</p>;
+  }
 
   return (
     <div className="container">
       <h1>{carte.titre}</h1>
       <img src={carte.image} alt={carte.titre} />
-      <p><strong>Module :</strong> {carte.module}</p>
-      <p><strong>Mot-clé :</strong> {carte.motCle}</p>
-      <p><strong>Symbole :</strong> {carte.symbole}</p>
-      <p><strong>Message :</strong> {carte.message}</p>
-      <p><strong>Lecture :</strong> {carte.lecture}</p>
-      <p><strong>Invitation :</strong></p>
+      <p>
+        <strong>Module :</strong> {carte.module}
+      </p>
+      <p>
+        <strong>Mot-clé :</strong> {carte.motCle}
+      </p>
+      <p>
+        <strong>Symbole :</strong> {carte.symbole}
+      </p>
+      <p>
+        <strong>Message :</strong> {carte.message}
+      </p>
+      <p>
+        <strong>Lecture :</strong> {carte.lecture}
+      </p>
+      <p>
+        <strong>Invitation :</strong>
+      </p>
       <ul>
-        {carte.invitation.map((item: string, index: number) => (
+        {carte.invitation.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
       </ul>
-      <p><strong>Méditation :</strong> {carte.meditation}</p>
+      <p>
+        <strong>Méditation :</strong> {carte.meditation}
+      </p>
 
-      <button onClick={() => router.push('/')} className="btn-retour">
+      <button onClick={() => router.push("/")} className="btn-retour">
         ← Retour à l’accueil
       </button>
 
@@ -72,7 +91,9 @@ export default function CartePage({ carte }: { carte: any }) {
           font-size: 1rem;
           cursor: pointer;
           box-shadow: 0 4px 12px rgba(0, 112, 243, 0.3);
-          transition: transform 0.2s ease, box-shadow 0.2s ease;
+          transition:
+            transform 0.2s ease,
+            box-shadow 0.2s ease;
         }
         .btn-retour:hover {
           transform: translateY(-2px);
@@ -86,30 +107,3 @@ export default function CartePage({ carte }: { carte: any }) {
     </div>
   );
 }
-
-export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = cartes.map((carte) => ({
-    params: { id: carte.id },
-  }));
-
-  return {
-    paths,
-    fallback: true,
-  };
-};
-
-export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const carte = cartes.find((c) => c.id === params?.id);
-
-  if (!carte) {
-    return {
-      notFound: true,
-    };
-  }
-
-  return {
-    props: {
-      carte,
-    },
-  };
-};

@@ -1,8 +1,8 @@
 // pages/index.tsx
 
-import React from 'react';
-import Link from 'next/link';
-import { FaInstagram } from 'react-icons/fa';
+import React from "react";
+import Link from "next/link";
+import { FaInstagram } from "react-icons/fa";
 
 export default function Home() {
   const randomId = Math.floor(Math.random() * 33) + 1;
@@ -12,7 +12,6 @@ export default function Home() {
       <main>
         <h1>Bienvenue dans l’Oracle Initiatique</h1>
 
-        {/* Image depuis /public */}
         <img
           src="/oracle.png"
           alt="Oracle Initiatique"
@@ -26,14 +25,14 @@ export default function Home() {
 
       <footer>
         <p>
-          © Adrien Dauvert{' '}
+          © Adrien Dauvert{" "}
           <a
             href="https://www.instagram.com/ether.adrien/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
           >
-            <FaInstagram size={20} style={{ marginLeft: '8px' }} />
+            <FaInstagram size={20} style={{ marginLeft: "8px" }} />
           </a>
         </p>
       </footer>
@@ -50,12 +49,10 @@ export default function Home() {
           text-align: center;
           padding: 2rem;
         }
-
         h1 {
           font-size: 2rem;
           margin-bottom: 2rem;
         }
-
         .oracle-image {
           max-width: 300px;
           height: auto;
@@ -63,7 +60,6 @@ export default function Home() {
           border-radius: 8px;
           box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
         }
-
         .tirer-btn {
           display: inline-block;
           padding: 1rem 2rem;
@@ -73,14 +69,14 @@ export default function Home() {
           font-size: 1.2rem;
           text-decoration: none;
           box-shadow: 0 4px 12px rgba(0, 112, 243, 0.3);
-          transition: transform 0.2s ease, box-shadow 0.2s ease;
+          transition:
+            transform 0.2s ease,
+            box-shadow 0.2s ease;
         }
-
         .tirer-btn:hover {
           transform: translateY(-2px);
           box-shadow: 0 6px 16px rgba(0, 112, 243, 0.4);
         }
-
         footer {
           margin-top: 4rem;
           font-size: 0.9rem;
@@ -88,12 +84,10 @@ export default function Home() {
           align-items: center;
           color: #aaa;
         }
-
         footer a {
           color: #aaa;
           margin-left: 0.5rem;
         }
-
         footer a:hover {
           color: #fff;
         }
