@@ -49,10 +49,12 @@ export default function Home() {
           text-align: center;
           padding: 2rem;
         }
+
         h1 {
           font-size: 2rem;
           margin-bottom: 2rem;
         }
+
         .oracle-image {
           max-width: 300px;
           height: auto;
@@ -60,6 +62,7 @@ export default function Home() {
           border-radius: 8px;
           box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
         }
+
         .tirer-btn {
           display: inline-block;
           padding: 1rem 2rem;
@@ -73,10 +76,12 @@ export default function Home() {
             transform 0.2s ease,
             box-shadow 0.2s ease;
         }
+
         .tirer-btn:hover {
           transform: translateY(-2px);
           box-shadow: 0 6px 16px rgba(0, 112, 243, 0.4);
         }
+
         footer {
           margin-top: 4rem;
           font-size: 0.9rem;
@@ -84,10 +89,12 @@ export default function Home() {
           align-items: center;
           color: #aaa;
         }
+
         footer a {
           color: #aaa;
           margin-left: 0.5rem;
         }
+
         footer a:hover {
           color: #fff;
         }
