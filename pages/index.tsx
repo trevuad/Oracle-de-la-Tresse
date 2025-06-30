@@ -1,5 +1,3 @@
-// pages/index.tsx
-
 import React from "react";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
@@ -18,8 +16,8 @@ export default function Home() {
           className="oracle-image"
         />
 
-        <Link href={`/carte/${randomId}`} legacyBehavior>
-          <a className="tirer-btn">Tirer une carte</a>
+        <Link href={`/carte/${randomId}`} className="tirer-btn">
+          Tirer une carte
         </Link>
       </main>
 
@@ -48,17 +46,29 @@ export default function Home() {
           justify-content: center;
           text-align: center;
           padding: 2rem;
+          margin: 0 auto;
+          width: 100%;
+          max-width: 600px;
+          box-sizing: border-box;
+        }
+
+        main {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 2rem;
+          width: 100%;
         }
 
         h1 {
           font-size: 2rem;
-          margin-bottom: 2rem;
+          margin: 0;
         }
 
         .oracle-image {
-          max-width: 300px;
+          max-width: 100%;
           height: auto;
-          margin-bottom: 2rem;
           border-radius: 8px;
           box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
         }
@@ -75,6 +85,8 @@ export default function Home() {
           transition:
             transform 0.2s ease,
             box-shadow 0.2s ease;
+          cursor: pointer;
+          user-select: none;
         }
 
         .tirer-btn:hover {
@@ -83,11 +95,13 @@ export default function Home() {
         }
 
         footer {
-          margin-top: 4rem;
+          margin-top: 3rem;
           font-size: 0.9rem;
           display: flex;
           align-items: center;
+          justify-content: center;
           color: #aaa;
+          width: 100%;
         }
 
         footer a {
@@ -97,6 +111,22 @@ export default function Home() {
 
         footer a:hover {
           color: #fff;
+        }
+
+        @media (max-width: 480px) {
+          .container {
+            padding: 1rem;
+            max-width: 100%;
+          }
+
+          h1 {
+            font-size: 1.5rem;
+          }
+
+          .tirer-btn {
+            font-size: 1rem;
+            padding: 0.75rem 1.5rem;
+          }
         }
       `}</style>
     </div>
